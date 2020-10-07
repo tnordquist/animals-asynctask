@@ -85,7 +85,7 @@ display any form of progress in the user interface while the background computat
 executing. For instance, it can be used to animate a progress bar or show logs in a text field.
 * `onPostExecute(Result)` invoked on the UI thread after the background computation finishes. The 
 background computation passes the result to this step as a parameter. `doInBackground(Params...)`
-passed `List<Animal>' in the case of Animals.
+passed `List<Animal>` in the case of Animals.
 
 ## Cancelling a task
 A task can be cancelled at any time by invoking cancel(boolean). Invoking this method will cause 
